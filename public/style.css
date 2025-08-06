@@ -1,0 +1,154 @@
+/* Writing code for the simple calculator in js , this is css file */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 328px;
+    margin: 100px auto;
+    background: #101010;
+    padding: 10px;
+    border-radius: 32px;
+    box-shadow: 0 0 10px #000;
+}
+
+.display {
+    width: 91%;
+    height: 90px;
+    margin-bottom: 6px;
+    text-align: right;
+    padding: 11px;
+    font-size: 48px;
+    border: 1px solid #000;
+    border-radius: 17px;
+    color: white;
+    
+    /*Solution no.1
+     overflow: auto;
+    white-space: nowrap; */
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.display::-webkit-scrollbar{
+    display: none;
+}
+
+button {
+    width: 61px;
+    height: 59px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+button:active {
+    background: #000000;
+    color: white;
+}
+
+.btn-0{
+
+}
+.btn-1{
+    
+}
+.btn-2{
+    
+}
+.btn-3{
+    
+}
+.btn-4{
+    
+}
+.btn-5{
+    
+}
+.btn-6{
+    
+}
+.btn-7{
+    
+}
+.btn-8{
+    
+}
+.btn-9{
+    
+}
+.btn-10{
+    
+}
+#btn-11{background: #ffa513;
+    
+}
+
+#btn-11:active{background: white;
+    color:black;
+    
+}
+#btn-12{background: #ffa513;
+    
+}
+
+#btn-12:active{background: white;
+    color:black;
+    
+}
+#btn-13{background: #ffa513;
+    
+}
+
+#btn-13:active{background: white;
+    color:black;
+    
+}
+#btn-14{background: #ffa513;
+    
+}
+
+#btn-14:active{background: white;
+    color:black;
+    
+}
+#btn-15{background: #ffa513;
+    
+}
+
+#btn-15:active{background: white;
+    color:black;
+    
+}
+#btn-16{ background: #ffa513;
+    
+}
+
+#btn-16:active{background: white;
+    color:black;
+    
+}
+#btn-17{background: #ffa513;
+    
+}
+
+#btn-17:active{background: white;
+    color:black;
+    
+}
